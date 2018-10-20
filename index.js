@@ -2,9 +2,9 @@ const { CommandoClient } = require('discord.js-commando');
 const path = require('path');
 
 const client = new CommandoClient({
-    commandPrefix: '!',
+    commandPrefix: 'Argos ',
     unknownCommandResponse: false,
-    owner: '<Insert Your User ID Here>',
+    owner: '109435743994130432',
     disableEveryone: true
 });
 
