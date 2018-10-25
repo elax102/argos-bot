@@ -4,7 +4,7 @@ module.exports = class SpeakCommand extends Command {
     constructor(client) {
         super(client, {
             name: 'speak',
-            group: 'group1',
+            group: 'tricks',
             memberName: 'speak',
             description: 'Make Argos speak!',
             examples: ['speak']

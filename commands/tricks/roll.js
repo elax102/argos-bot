@@ -4,7 +4,7 @@ module.exports = class RollCommand extends Command {
     constructor(client) {
         super(client, {
             name: 'roll',
-            group: 'group1',
+            group: 'tricks',
             memberName: 'roll',
             description: 'Make Argos roll over!',
             examples: ['roll']

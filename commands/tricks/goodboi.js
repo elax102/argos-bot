@@ -4,7 +4,7 @@ module.exports = class GoodboiCommand extends Command {
     constructor(client) {
         super(client, {
             name: 'who\'s a goodboi?',
-            group: 'group1',
+            group: 'tricks',
             memberName: 'goodboi',
             description: 'Is Argos a goodboi!',
             examples: ['goodboi']
