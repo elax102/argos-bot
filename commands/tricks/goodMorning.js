@@ -25,6 +25,8 @@ module.exports = class SayCommand extends Command {
         if(TOD == 'night'){
             return msg.say('Nighty night! See you tomorrow! I love you!');
         }
-        
+        else{
+            return msg.say('I don\'t know what that is but I hope everyone has a nice time :)');
+        }
     }
 };
