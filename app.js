@@ -20,7 +20,7 @@ client.registry
 
 client.on('ready', () => {
     console.log('Logged in!');
-    client.user.setActivity('game');
+    client.user.setActivity('fetch!');
 });
 
 client.login('NTAzMjYyOTk0Nzg5MTcxMjAw.Dqz9Lg.t7-KVlY504N1d-BPm0cPcNK6PfA');
